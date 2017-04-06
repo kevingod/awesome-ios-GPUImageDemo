@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6166F3781E8E471D00750B7C /* GPUImageBeautifyFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6166F3771E8E471D00750B7C /* GPUImageBeautifyFilter.m */; };
+		6166F37C1E8E5F2600750B7C /* IMG_0876.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6166F37B1E8E5F2600750B7C /* IMG_0876.jpg */; };
+		618DC9901E8CA08D00E5F0A0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 618DC98F1E8CA08D00E5F0A0 /* main.m */; };
+		618DC9931E8CA08D00E5F0A0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 618DC9921E8CA08D00E5F0A0 /* AppDelegate.m */; };
+		618DC99C1E8CA08D00E5F0A0 /* GPUImageDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 618DC99A1E8CA08D00E5F0A0 /* GPUImageDemo.xcdatamodeld */; };
+		618DC99E1E8CA08D00E5F0A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 618DC99D1E8CA08D00E5F0A0 /* Assets.xcassets */; };
+		618DC9A11E8CA08D00E5F0A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 618DC99F1E8CA08D00E5F0A0 /* LaunchScreen.storyboard */; };
+		618DC9AB1E8CA0E800E5F0A0 /* FunctionSelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 618DC9A91E8CA0E800E5F0A0 /* FunctionSelectViewController.m */; };
+		618DC9AC1E8CA0E800E5F0A0 /* FunctionSelectViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 618DC9AA1E8CA0E800E5F0A0 /* FunctionSelectViewController.xib */; };
+		618DC9B21E8CA2FA00E5F0A0 /* VideoRecordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 618DC9B01E8CA2FA00E5F0A0 /* VideoRecordViewController.m */; };
+		618DC9B31E8CA2FA00E5F0A0 /* VideoRecordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 618DC9B11E8CA2FA00E5F0A0 /* VideoRecordViewController.xib */; };
+		618DC9C61E8CA38B00E5F0A0 /* ImageProcessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 618DC9C41E8CA38B00E5F0A0 /* ImageProcessViewController.m */; };
+		618DC9C71E8CA38B00E5F0A0 /* ImageProcessViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 618DC9C51E8CA38B00E5F0A0 /* ImageProcessViewController.xib */; };
+		618DC9E51E8CA40D00E5F0A0 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 618DC9CD1E8CA40D00E5F0A0 /* MASCompositeConstraint.m */; };
+		618DC9E61E8CA40D00E5F0A0 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 618DC9D01E8CA40D00E5F0A0 /* MASConstraint.m */; };
+		618DC9E71E8CA40D00E5F0A0 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 618DC9D21E8CA40D00E5F0A0 /* MASConstraintMaker.m */; };
+		618DC9E81E8CA40D00E5F0A0 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 618DC9D41E8CA40D00E5F0A0 /* MASLayoutConstraint.m */; };
+		618DC9E91E8CA40D00E5F0A0 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 618DC9D81E8CA40D00E5F0A0 /* MASViewAttribute.m */; };
+		618DC9EA1E8CA40D00E5F0A0 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 618DC9DA1E8CA40D00E5F0A0 /* MASViewConstraint.m */; };
+		618DC9EB1E8CA40D00E5F0A0 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 618DC9DC1E8CA40D00E5F0A0 /* NSArray+MASAdditions.m */; };
+		618DC9EC1E8CA40D00E5F0A0 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 618DC9DF1E8CA40D00E5F0A0 /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		618DC9ED1E8CA40D00E5F0A0 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 618DC9E11E8CA40D00E5F0A0 /* View+MASAdditions.m */; };
+		618DC9EE1E8CA40D00E5F0A0 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 618DC9E41E8CA40D00E5F0A0 /* ViewController+MASAdditions.m */; };
+		618DC9F21E8CA48000E5F0A0 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 618DC9F11E8CA48000E5F0A0 /* AVFoundation.framework */; };
+		618DC9F41E8CA48800E5F0A0 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 618DC9F31E8CA48800E5F0A0 /* CoreMedia.framework */; };
+		618DC9F61E8CA48E00E5F0A0 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 618DC9F51E8CA48E00E5F0A0 /* CoreVideo.framework */; };
+		618DC9F81E8CA49400E5F0A0 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 618DC9F71E8CA49400E5F0A0 /* OpenGLES.framework */; };
+		618DC9FA1E8CA49B00E5F0A0 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 618DC9F91E8CA49B00E5F0A0 /* QuartzCore.framework */; };
+		618DC9FC1E8CA4A000E5F0A0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 618DC9FB1E8CA4A000E5F0A0 /* UIKit.framework */; };
+		618DC9FE1E8CA4A600E5F0A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 618DC9FD1E8CA4A600E5F0A0 /* Foundation.framework */; };
+		618DCA001E8CA4AC00E5F0A0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 618DC9FF1E8CA4AC00E5F0A0 /* CoreGraphics.framework */; };
+		618DCA031E8CA4D700E5F0A0 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 618DCA021E8CA4D700E5F0A0 /* MediaPlayer.framework */; };
+		618DCA091E8CA68800E5F0A0 /* FilterAddView.m in Sources */ = {isa = PBXBuildFile; fileRef = 618DCA081E8CA68800E5F0A0 /* FilterAddView.m */; };
+		618DCACF1E8CF83C00E5F0A0 /* GPUImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 618DCACE1E8CF83C00E5F0A0 /* GPUImage.framework */; };
+		618DCAE31E8D04F200E5F0A0 /* FilterChooseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 618DCADE1E8D04F200E5F0A0 /* FilterChooseViewController.m */; };
+		618DCAE41E8D04F200E5F0A0 /* FilterChooseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 618DCADF1E8D04F200E5F0A0 /* FilterChooseViewController.xib */; };
+		618DCAE51E8D04F200E5F0A0 /* FilterTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 618DCAE11E8D04F200E5F0A0 /* FilterTableViewCell.m */; };
+		618DCAE61E8D04F200E5F0A0 /* FilterTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 618DCAE21E8D04F200E5F0A0 /* FilterTableViewCell.xib */; };
+		618DCAEC1E8D081700E5F0A0 /* FilterObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 618DCAEB1E8D081700E5F0A0 /* FilterObject.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6166F3751E8E0D9B00750B7C /* transform.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = transform.h; sourceTree = "<group>"; };
+		6166F3761E8E471D00750B7C /* GPUImageBeautifyFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GPUImageBeautifyFilter.h; path = GPUImageDemo/GPUImageBeautifyFilter.h; sourceTree = "<group>"; };
+		6166F3771E8E471D00750B7C /* GPUImageBeautifyFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GPUImageBeautifyFilter.m; path = GPUImageDemo/GPUImageBeautifyFilter.m; sourceTree = "<group>"; };
+		6166F37A1E8E5E3200750B7C /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		6166F37B1E8E5F2600750B7C /* IMG_0876.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0876.jpg; sourceTree = "<group>"; };
+		618DC98B1E8CA08D00E5F0A0 /* GPUImageDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GPUImageDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		618DC98F1E8CA08D00E5F0A0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		618DC9911E8CA08D00E5F0A0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		618DC9921E8CA08D00E5F0A0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		618DC99B1E8CA08D00E5F0A0 /* GPUImageDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GPUImageDemo.xcdatamodel; sourceTree = "<group>"; };
+		618DC99D1E8CA08D00E5F0A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		618DC9A01E8CA08D00E5F0A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		618DC9A21E8CA08D00E5F0A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		618DC9A81E8CA0E800E5F0A0 /* FunctionSelectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FunctionSelectViewController.h; path = GPUImageDemo/FunctionSelectViewController.h; sourceTree = "<group>"; };
+		618DC9A91E8CA0E800E5F0A0 /* FunctionSelectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FunctionSelectViewController.m; path = GPUImageDemo/FunctionSelectViewController.m; sourceTree = "<group>"; };
+		618DC9AA1E8CA0E800E5F0A0 /* FunctionSelectViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = FunctionSelectViewController.xib; path = GPUImageDemo/FunctionSelectViewController.xib; sourceTree = "<group>"; };
+		618DC9AF1E8CA2FA00E5F0A0 /* VideoRecordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VideoRecordViewController.h; path = GPUImageDemo/VideoRecordViewController.h; sourceTree = "<group>"; };
+		618DC9B01E8CA2FA00E5F0A0 /* VideoRecordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VideoRecordViewController.m; path = GPUImageDemo/VideoRecordViewController.m; sourceTree = "<group>"; };
+		618DC9B11E8CA2FA00E5F0A0 /* VideoRecordViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = VideoRecordViewController.xib; path = GPUImageDemo/VideoRecordViewController.xib; sourceTree = "<group>"; };
+		618DC9C31E8CA38B00E5F0A0 /* ImageProcessViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImageProcessViewController.h; path = GPUImageDemo/ImageProcessViewController.h; sourceTree = "<group>"; };
+		618DC9C41E8CA38B00E5F0A0 /* ImageProcessViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ImageProcessViewController.m; path = GPUImageDemo/ImageProcessViewController.m; sourceTree = "<group>"; };
+		618DC9C51E8CA38B00E5F0A0 /* ImageProcessViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ImageProcessViewController.xib; path = GPUImageDemo/ImageProcessViewController.xib; sourceTree = "<group>"; };
+		618DC9C81E8CA3A900E5F0A0 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		618DC9CC1E8CA40D00E5F0A0 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		618DC9CD1E8CA40D00E5F0A0 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		618DC9CE1E8CA40D00E5F0A0 /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		618DC9CF1E8CA40D00E5F0A0 /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		618DC9D01E8CA40D00E5F0A0 /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		618DC9D11E8CA40D00E5F0A0 /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		618DC9D21E8CA40D00E5F0A0 /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		618DC9D31E8CA40D00E5F0A0 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		618DC9D41E8CA40D00E5F0A0 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		618DC9D51E8CA40D00E5F0A0 /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		618DC9D61E8CA40D00E5F0A0 /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		618DC9D71E8CA40D00E5F0A0 /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		618DC9D81E8CA40D00E5F0A0 /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		618DC9D91E8CA40D00E5F0A0 /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		618DC9DA1E8CA40D00E5F0A0 /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		618DC9DB1E8CA40D00E5F0A0 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		618DC9DC1E8CA40D00E5F0A0 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		618DC9DD1E8CA40D00E5F0A0 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		618DC9DE1E8CA40D00E5F0A0 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		618DC9DF1E8CA40D00E5F0A0 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		618DC9E01E8CA40D00E5F0A0 /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		618DC9E11E8CA40D00E5F0A0 /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		618DC9E21E8CA40D00E5F0A0 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		618DC9E31E8CA40D00E5F0A0 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		618DC9E41E8CA40D00E5F0A0 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		618DC9F11E8CA48000E5F0A0 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		618DC9F31E8CA48800E5F0A0 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		618DC9F51E8CA48E00E5F0A0 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		618DC9F71E8CA49400E5F0A0 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		618DC9F91E8CA49B00E5F0A0 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		618DC9FB1E8CA4A000E5F0A0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		618DC9FD1E8CA4A600E5F0A0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		618DC9FF1E8CA4AC00E5F0A0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		618DCA021E8CA4D700E5F0A0 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		618DCA071E8CA68800E5F0A0 /* FilterAddView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FilterAddView.h; path = GPUImageDemo/FilterAddView.h; sourceTree = "<group>"; };
+		618DCA081E8CA68800E5F0A0 /* FilterAddView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FilterAddView.m; path = GPUImageDemo/FilterAddView.m; sourceTree = "<group>"; };
+		618DCACE1E8CF83C00E5F0A0 /* GPUImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GPUImage.framework; sourceTree = SOURCE_ROOT; };
+		618DCADD1E8D04F200E5F0A0 /* FilterChooseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FilterChooseViewController.h; path = GPUImageDemo/FilterChooseViewController.h; sourceTree = "<group>"; };
+		618DCADE1E8D04F200E5F0A0 /* FilterChooseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FilterChooseViewController.m; path = GPUImageDemo/FilterChooseViewController.m; sourceTree = "<group>"; };
+		618DCADF1E8D04F200E5F0A0 /* FilterChooseViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = FilterChooseViewController.xib; path = GPUImageDemo/FilterChooseViewController.xib; sourceTree = "<group>"; };
+		618DCAE01E8D04F200E5F0A0 /* FilterTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FilterTableViewCell.h; path = GPUImageDemo/FilterTableViewCell.h; sourceTree = "<group>"; };
+		618DCAE11E8D04F200E5F0A0 /* FilterTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FilterTableViewCell.m; path = GPUImageDemo/FilterTableViewCell.m; sourceTree = "<group>"; };
+		618DCAE21E8D04F200E5F0A0 /* FilterTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = FilterTableViewCell.xib; path = GPUImageDemo/FilterTableViewCell.xib; sourceTree = "<group>"; };
+		618DCAEA1E8D081700E5F0A0 /* FilterObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FilterObject.h; path = GPUImageDemo/FilterObject.h; sourceTree = "<group>"; };
+		618DCAEB1E8D081700E5F0A0 /* FilterObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FilterObject.m; path = GPUImageDemo/FilterObject.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		618DC9881E8CA08D00E5F0A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				618DCA031E8CA4D700E5F0A0 /* MediaPlayer.framework in Frameworks */,
+				618DCACF1E8CF83C00E5F0A0 /* GPUImage.framework in Frameworks */,
+				618DCA001E8CA4AC00E5F0A0 /* CoreGraphics.framework in Frameworks */,
+				618DC9FE1E8CA4A600E5F0A0 /* Foundation.framework in Frameworks */,
+				618DC9FC1E8CA4A000E5F0A0 /* UIKit.framework in Frameworks */,
+				618DC9FA1E8CA49B00E5F0A0 /* QuartzCore.framework in Frameworks */,
+				618DC9F81E8CA49400E5F0A0 /* OpenGLES.framework in Frameworks */,
+				618DC9F61E8CA48E00E5F0A0 /* CoreVideo.framework in Frameworks */,
+				618DC9F41E8CA48800E5F0A0 /* CoreMedia.framework in Frameworks */,
+				618DC9F21E8CA48000E5F0A0 /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		618DC9821E8CA08D00E5F0A0 = {
+			isa = PBXGroup;
+			children = (
+				618DC9B41E8CA2FF00E5F0A0 /* class */,
+				618DC98D1E8CA08D00E5F0A0 /* GPUImageDemo */,
+				618DC9C91E8CA3F800E5F0A0 /* ThirdParty */,
+				618DC98E1E8CA08D00E5F0A0 /* Supporting Files */,
+				618DC98C1E8CA08D00E5F0A0 /* Products */,
+				618DC9F01E8CA47F00E5F0A0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		618DC98C1E8CA08D00E5F0A0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				618DC98B1E8CA08D00E5F0A0 /* GPUImageDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		618DC98D1E8CA08D00E5F0A0 /* GPUImageDemo */ = {
+			isa = PBXGroup;
+			children = (
+				618DC9911E8CA08D00E5F0A0 /* AppDelegate.h */,
+				618DC9921E8CA08D00E5F0A0 /* AppDelegate.m */,
+				618DC99D1E8CA08D00E5F0A0 /* Assets.xcassets */,
+				618DC99F1E8CA08D00E5F0A0 /* LaunchScreen.storyboard */,
+				618DC9A21E8CA08D00E5F0A0 /* Info.plist */,
+				618DC99A1E8CA08D00E5F0A0 /* GPUImageDemo.xcdatamodeld */,
+			);
+			path = GPUImageDemo;
+			sourceTree = "<group>";
+		};
+		618DC98E1E8CA08D00E5F0A0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				618DC9C81E8CA3A900E5F0A0 /* PrefixHeader.pch */,
+				618DC98F1E8CA08D00E5F0A0 /* main.m */,
+			);
+			name = "Supporting Files";
+			path = GPUImageDemo;
+			sourceTree = "<group>";
+		};
+		618DC9B41E8CA2FF00E5F0A0 /* class */ = {
+			isa = PBXGroup;
+			children = (
+				618DC9B61E8CA31B00E5F0A0 /* 其它 */,
+				618DC9B71E8CA32600E5F0A0 /* 图片处理 */,
+				618DC9B51E8CA30D00E5F0A0 /* 拍摄 */,
+			);
+			name = class;
+			sourceTree = "<group>";
+		};
+		618DC9B51E8CA30D00E5F0A0 /* 拍摄 */ = {
+			isa = PBXGroup;
+			children = (
+				618DC9AF1E8CA2FA00E5F0A0 /* VideoRecordViewController.h */,
+				618DC9B01E8CA2FA00E5F0A0 /* VideoRecordViewController.m */,
+				618DC9B11E8CA2FA00E5F0A0 /* VideoRecordViewController.xib */,
+			);
+			name = "拍摄";
+			sourceTree = "<group>";
+		};
+		618DC9B61E8CA31B00E5F0A0 /* 其它 */ = {
+			isa = PBXGroup;
+			children = (
+				618DC9A81E8CA0E800E5F0A0 /* FunctionSelectViewController.h */,
+				618DC9A91E8CA0E800E5F0A0 /* FunctionSelectViewController.m */,
+				618DC9AA1E8CA0E800E5F0A0 /* FunctionSelectViewController.xib */,
+				618DCA071E8CA68800E5F0A0 /* FilterAddView.h */,
+				618DCA081E8CA68800E5F0A0 /* FilterAddView.m */,
+				618DCAE01E8D04F200E5F0A0 /* FilterTableViewCell.h */,
+				618DCAE11E8D04F200E5F0A0 /* FilterTableViewCell.m */,
+				618DCAE21E8D04F200E5F0A0 /* FilterTableViewCell.xib */,
+				618DCADD1E8D04F200E5F0A0 /* FilterChooseViewController.h */,
+				618DCADE1E8D04F200E5F0A0 /* FilterChooseViewController.m */,
+				618DCADF1E8D04F200E5F0A0 /* FilterChooseViewController.xib */,
+				618DCAEA1E8D081700E5F0A0 /* FilterObject.h */,
+				618DCAEB1E8D081700E5F0A0 /* FilterObject.m */,
+				6166F3761E8E471D00750B7C /* GPUImageBeautifyFilter.h */,
+				6166F3771E8E471D00750B7C /* GPUImageBeautifyFilter.m */,
+				6166F3751E8E0D9B00750B7C /* transform.h */,
+			);
+			name = "其它";
+			sourceTree = "<group>";
+		};
+		618DC9B71E8CA32600E5F0A0 /* 图片处理 */ = {
+			isa = PBXGroup;
+			children = (
+				618DC9C31E8CA38B00E5F0A0 /* ImageProcessViewController.h */,
+				618DC9C41E8CA38B00E5F0A0 /* ImageProcessViewController.m */,
+				618DC9C51E8CA38B00E5F0A0 /* ImageProcessViewController.xib */,
+			);
+			name = "图片处理";
+			sourceTree = "<group>";
+		};
+		618DC9C91E8CA3F800E5F0A0 /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+				618DCACE1E8CF83C00E5F0A0 /* GPUImage.framework */,
+				618DC9CA1E8CA40D00E5F0A0 /* Masonry */,
+			);
+			name = ThirdParty;
+			sourceTree = "<group>";
+		};
+		618DC9CA1E8CA40D00E5F0A0 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				618DC9CB1E8CA40D00E5F0A0 /* Masonry */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		618DC9CB1E8CA40D00E5F0A0 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				6166F37B1E8E5F2600750B7C /* IMG_0876.jpg */,
+				618DC9CC1E8CA40D00E5F0A0 /* MASCompositeConstraint.h */,
+				618DC9CD1E8CA40D00E5F0A0 /* MASCompositeConstraint.m */,
+				618DC9CE1E8CA40D00E5F0A0 /* MASConstraint+Private.h */,
+				618DC9CF1E8CA40D00E5F0A0 /* MASConstraint.h */,
+				618DC9D01E8CA40D00E5F0A0 /* MASConstraint.m */,
+				618DC9D11E8CA40D00E5F0A0 /* MASConstraintMaker.h */,
+				618DC9D21E8CA40D00E5F0A0 /* MASConstraintMaker.m */,
+				618DC9D31E8CA40D00E5F0A0 /* MASLayoutConstraint.h */,
+				618DC9D41E8CA40D00E5F0A0 /* MASLayoutConstraint.m */,
+				618DC9D51E8CA40D00E5F0A0 /* Masonry.h */,
+				618DC9D61E8CA40D00E5F0A0 /* MASUtilities.h */,
+				618DC9D71E8CA40D00E5F0A0 /* MASViewAttribute.h */,
+				618DC9D81E8CA40D00E5F0A0 /* MASViewAttribute.m */,
+				618DC9D91E8CA40D00E5F0A0 /* MASViewConstraint.h */,
+				618DC9DA1E8CA40D00E5F0A0 /* MASViewConstraint.m */,
+				618DC9DB1E8CA40D00E5F0A0 /* NSArray+MASAdditions.h */,
+				618DC9DC1E8CA40D00E5F0A0 /* NSArray+MASAdditions.m */,
+				618DC9DD1E8CA40D00E5F0A0 /* NSArray+MASShorthandAdditions.h */,
+				618DC9DE1E8CA40D00E5F0A0 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				618DC9DF1E8CA40D00E5F0A0 /* NSLayoutConstraint+MASDebugAdditions.m */,
+				618DC9E01E8CA40D00E5F0A0 /* View+MASAdditions.h */,
+				618DC9E11E8CA40D00E5F0A0 /* View+MASAdditions.m */,
+				618DC9E21E8CA40D00E5F0A0 /* View+MASShorthandAdditions.h */,
+				618DC9E31E8CA40D00E5F0A0 /* ViewController+MASAdditions.h */,
+				618DC9E41E8CA40D00E5F0A0 /* ViewController+MASAdditions.m */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		618DC9F01E8CA47F00E5F0A0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				618DCA021E8CA4D700E5F0A0 /* MediaPlayer.framework */,
+				618DC9FF1E8CA4AC00E5F0A0 /* CoreGraphics.framework */,
+				618DC9FD1E8CA4A600E5F0A0 /* Foundation.framework */,
+				618DC9FB1E8CA4A000E5F0A0 /* UIKit.framework */,
+				618DC9F91E8CA49B00E5F0A0 /* QuartzCore.framework */,
+				618DC9F71E8CA49400E5F0A0 /* OpenGLES.framework */,
+				618DC9F51E8CA48E00E5F0A0 /* CoreVideo.framework */,
+				618DC9F31E8CA48800E5F0A0 /* CoreMedia.framework */,
+				618DC9F11E8CA48000E5F0A0 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		618DC98A1E8CA08D00E5F0A0 /* GPUImageDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 618DC9A51E8CA08D00E5F0A0 /* Build configuration list for PBXNativeTarget "GPUImageDemo" */;
+			buildPhases = (
+				618DC9871E8CA08D00E5F0A0 /* Sources */,
+				618DC9881E8CA08D00E5F0A0 /* Frameworks */,
+				618DC9891E8CA08D00E5F0A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GPUImageDemo;
+			productName = GPUImageDemo;
+			productReference = 618DC98B1E8CA08D00E5F0A0 /* GPUImageDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		618DC9831E8CA08D00E5F0A0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "张浩";
+				TargetAttributes = {
+					618DC98A1E8CA08D00E5F0A0 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = A6768J84GN;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 618DC9861E8CA08D00E5F0A0 /* Build configuration list for PBXProject "GPUImageDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 618DC9821E8CA08D00E5F0A0;
+			productRefGroup = 618DC98C1E8CA08D00E5F0A0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				618DC98A1E8CA08D00E5F0A0 /* GPUImageDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		618DC9891E8CA08D00E5F0A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				618DC9A11E8CA08D00E5F0A0 /* LaunchScreen.storyboard in Resources */,
+				618DC9AC1E8CA0E800E5F0A0 /* FunctionSelectViewController.xib in Resources */,
+				618DCAE41E8D04F200E5F0A0 /* FilterChooseViewController.xib in Resources */,
+				618DC99E1E8CA08D00E5F0A0 /* Assets.xcassets in Resources */,
+				6166F37C1E8E5F2600750B7C /* IMG_0876.jpg in Resources */,
+				618DC9C71E8CA38B00E5F0A0 /* ImageProcessViewController.xib in Resources */,
+				618DC9B31E8CA2FA00E5F0A0 /* VideoRecordViewController.xib in Resources */,
+				618DCAE61E8D04F200E5F0A0 /* FilterTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		618DC9871E8CA08D00E5F0A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				618DC9EB1E8CA40D00E5F0A0 /* NSArray+MASAdditions.m in Sources */,
+				618DC9EA1E8CA40D00E5F0A0 /* MASViewConstraint.m in Sources */,
+				618DC9C61E8CA38B00E5F0A0 /* ImageProcessViewController.m in Sources */,
+				618DC9E71E8CA40D00E5F0A0 /* MASConstraintMaker.m in Sources */,
+				618DC9ED1E8CA40D00E5F0A0 /* View+MASAdditions.m in Sources */,
+				618DC9E61E8CA40D00E5F0A0 /* MASConstraint.m in Sources */,
+				618DC99C1E8CA08D00E5F0A0 /* GPUImageDemo.xcdatamodeld in Sources */,
+				618DC9E91E8CA40D00E5F0A0 /* MASViewAttribute.m in Sources */,
+				618DC9EC1E8CA40D00E5F0A0 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				618DC9B21E8CA2FA00E5F0A0 /* VideoRecordViewController.m in Sources */,
+				618DCAE51E8D04F200E5F0A0 /* FilterTableViewCell.m in Sources */,
+				618DC9E51E8CA40D00E5F0A0 /* MASCompositeConstraint.m in Sources */,
+				618DC9E81E8CA40D00E5F0A0 /* MASLayoutConstraint.m in Sources */,
+				618DC9931E8CA08D00E5F0A0 /* AppDelegate.m in Sources */,
+				618DCAE31E8D04F200E5F0A0 /* FilterChooseViewController.m in Sources */,
+				618DCAEC1E8D081700E5F0A0 /* FilterObject.m in Sources */,
+				6166F3781E8E471D00750B7C /* GPUImageBeautifyFilter.m in Sources */,
+				618DC9AB1E8CA0E800E5F0A0 /* FunctionSelectViewController.m in Sources */,
+				618DC9EE1E8CA40D00E5F0A0 /* ViewController+MASAdditions.m in Sources */,
+				618DCA091E8CA68800E5F0A0 /* FilterAddView.m in Sources */,
+				618DC9901E8CA08D00E5F0A0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		618DC99F1E8CA08D00E5F0A0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				618DC9A01E8CA08D00E5F0A0 /* Base */,
+				6166F37A1E8E5E3200750B7C /* zh-Hans */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		618DC9A31E8CA08D00E5F0A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		618DC9A41E8CA08D00E5F0A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		618DC9A61E8CA08D00E5F0A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A6768J84GN;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/GPUImageDemo/PrefixHeader.pch";
+				INFOPLIST_FILE = GPUImageDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "--.GPUImageDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		618DC9A71E8CA08D00E5F0A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A6768J84GN;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/GPUImageDemo/PrefixHeader.pch";
+				INFOPLIST_FILE = GPUImageDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "--.GPUImageDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		618DC9861E8CA08D00E5F0A0 /* Build configuration list for PBXProject "GPUImageDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				618DC9A31E8CA08D00E5F0A0 /* Debug */,
+				618DC9A41E8CA08D00E5F0A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		618DC9A51E8CA08D00E5F0A0 /* Build configuration list for PBXNativeTarget "GPUImageDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				618DC9A61E8CA08D00E5F0A0 /* Debug */,
+				618DC9A71E8CA08D00E5F0A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		618DC99A1E8CA08D00E5F0A0 /* GPUImageDemo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				618DC99B1E8CA08D00E5F0A0 /* GPUImageDemo.xcdatamodel */,
+			);
+			currentVersion = 618DC99B1E8CA08D00E5F0A0 /* GPUImageDemo.xcdatamodel */;
+			path = GPUImageDemo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 618DC9831E8CA08D00E5F0A0 /* Project object */;
+}

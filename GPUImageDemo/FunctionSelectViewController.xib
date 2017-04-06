@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12118" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="FunctionSelectViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" semanticContentAttribute="spatial" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_1753" translatesAutoresizingMaskIntoConstraints="NO" id="9aI-cd-o2s">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EVo-pH-nak">
+                    <rect key="frame" x="48" y="310.5" width="119" height="46"/>
+                    <color key="backgroundColor" red="0.086274509799999996" green="0.68627450980000004" blue="0.94117647059999998" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="46" id="PoV-fZ-EkS"/>
+                        <constraint firstAttribute="width" constant="119" id="k5W-NA-xca"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <state key="normal" title="视频滤镜"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="5"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="tackCapture:" destination="-1" eventType="touchUpInside" id="oVW-6E-pUa"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DoU-JA-4oE">
+                    <rect key="frame" x="207" y="310.5" width="119" height="46"/>
+                    <color key="backgroundColor" red="0.086274509803921567" green="0.68627450980392157" blue="0.94117647058823528" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="119" id="0Hq-pX-T9e"/>
+                        <constraint firstAttribute="height" constant="46" id="Qga-8I-Rng"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <state key="normal" title="图片滤镜"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="5"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="editPicture:" destination="-1" eventType="touchUpInside" id="BXr-kA-AOo"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="EVo-pH-nak" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="48" id="2uu-0v-l9c"/>
+                <constraint firstItem="DoU-JA-4oE" firstAttribute="leading" secondItem="EVo-pH-nak" secondAttribute="trailing" constant="40" id="MFu-Fv-HaG"/>
+                <constraint firstItem="DoU-JA-4oE" firstAttribute="leading" secondItem="EVo-pH-nak" secondAttribute="trailing" constant="40" id="Ruu-au-0nl"/>
+                <constraint firstItem="DoU-JA-4oE" firstAttribute="width" secondItem="EVo-pH-nak" secondAttribute="width" id="Yoe-Sn-mWb"/>
+                <constraint firstItem="DoU-JA-4oE" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="jTu-UQ-BII"/>
+                <constraint firstItem="EVo-pH-nak" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="qxC-s2-gPa"/>
+            </constraints>
+            <point key="canvasLocation" x="-11" y="12"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="IMG_1753" width="2016" height="1512"/>
+    </resources>
+</document>
